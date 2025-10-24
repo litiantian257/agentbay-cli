@@ -148,7 +148,7 @@ jobs:
           echo "Repository URL: https://github.com/agentbay/${{ env.HOMEBREW_TAP_REPO }}.git"
           
           # Clone target repository
-          git clone "https://x-access-token:${{ secrets.HOMEBREW_TAP_TOKEN }}@github.com/agentbay/${{ env.HOMEBREW_TAP_REPO }}.git" homebrew-tap
+          git clone "https://x-access-token:${{ secrets.HOMEBREW_TAP_TOKEN }}@github.com/aliyun/${{ env.HOMEBREW_TAP_REPO }}.git" homebrew-tap
           
           echo "✅ Successfully cloned homebrew-agentbay repository"
           
